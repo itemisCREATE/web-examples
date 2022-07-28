@@ -1,0 +1,7 @@
+{
+	"id": 1,
+	"title": "Light Switch",
+	"author": "itemis AG",
+	"description": "A Statemachine which simulates a simple Lightswicht which can be turned On and Off"
+}
+ 

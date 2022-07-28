@@ -1,0 +1,7 @@
+{
+	"id": 5,
+	"title": "Presence Simulation Light Switch",
+	"author": "itemis AG",
+	"description": "This Statemachine simulates a Lightswitch with a manual mode and a Presence mode"
+}
+ 
