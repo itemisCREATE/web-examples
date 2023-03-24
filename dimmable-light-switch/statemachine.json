@@ -25,44 +25,34 @@
         }
       },
       {
-        "type": "Region",
         "position": {
-          "x": -360,
-          "y": -188
+          "x": -43,
+          "y": -35
         },
         "size": {
-          "height": 522,
-          "width": 583
+          "height": 10,
+          "width": 10
         },
         "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
+        "type": "Statechart",
+        "id": "a52f2a52-d787-4e09-8363-bd1529f140e6",
         "linkable": false,
-        "id": "fa02497c-338c-4891-8844-5689e1ed809b",
-        "z": 96,
-        "embeds": [
-          "3c11af42-f042-4ba5-a13e-4a044ed94664",
-          "f040effe-1c74-4e4a-b8e7-6f01bc669fc7",
-          "77b48e49-4826-4a83-87f5-4ecdf67b1290",
-          "a1bd1480-01ee-40de-b976-83866c06f999",
-          "0f170c05-ef64-40e4-a6d9-7c693033eab6",
-          "d150ccbe-0189-42cd-a8f3-c12a4eb10808",
-          "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931"
-        ],
+        "z": 2,
+        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {
-          "priority": {
-            "text": 1
-          },
           "name": {
-            "text": "main"
+            "text": "DimmableLightSwitch"
+          },
+          "specification": {
+            "text": "@EventDriven\n@SuperSteps(no)\n\ninterface:\n\tin event switch\n\tin event changeBrightness\n\tvar brightness: integer"
           }
         }
       },
       {
         "type": "State",
         "position": {
-          "x": -157.75,
-          "y": -133
+          "x": -200.75,
+          "y": -168
         },
         "size": {
           "height": 60,
@@ -72,9 +62,8 @@
         "fixedRatio": false,
         "embedable": true,
         "linkable": true,
-        "id": "d150ccbe-0189-42cd-a8f3-c12a4eb10808",
-        "z": 101,
-        "embeds": [],
+        "id": "76c13d81-4165-401b-b901-81e8c1d03e43",
+        "z": 3,
         "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {
           "name": {
@@ -86,37 +75,10 @@
         }
       },
       {
-        "type": "State",
-        "position": {
-          "x": -157.75,
-          "y": 145
-        },
-        "size": {
-          "height": 60,
-          "width": 190.75
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931",
-        "z": 108,
-        "embeds": [
-          "cb4ada0c-d1ec-4999-a1a5-a1bb29939784",
-          "9632d481-4efb-41ac-8b06-77325af07dbc"
-        ],
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
-        "attrs": {
-          "name": {
-            "text": "On"
-          }
-        }
-      },
-      {
         "type": "Entry",
         "position": {
-          "x": -297,
-          "y": -110.5
+          "x": -340,
+          "y": -145.5
         },
         "size": {
           "height": 15,
@@ -126,11 +88,11 @@
         "fixedRatio": true,
         "embedable": false,
         "linkable": true,
-        "id": "0f170c05-ef64-40e4-a6d9-7c693033eab6",
-        "z": 117,
+        "id": "d9fef119-f517-4d71-9f84-62cd3a0a8ecd",
         "embeds": [
-          "fb1693f5-5fa9-4860-8c9d-c3988b72672b"
+          "02fcae50-8833-4140-a048-d79a073021ee"
         ],
+        "z": 5,
         "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {}
       },
@@ -142,12 +104,12 @@
           "height": 15
         },
         "position": {
-          "x": -297,
-          "y": -95.5
+          "x": -340,
+          "y": -130.5
         },
-        "id": "fb1693f5-5fa9-4860-8c9d-c3988b72672b",
-        "z": 118,
-        "parent": "0f170c05-ef64-40e4-a6d9-7c693033eab6",
+        "id": "02fcae50-8833-4140-a048-d79a073021ee",
+        "parent": "d9fef119-f517-4d71-9f84-62cd3a0a8ecd",
+        "z": 6,
         "attrs": {
           "label": {
             "refX": "50%",
@@ -160,10 +122,10 @@
       {
         "type": "Transition",
         "source": {
-          "id": "0f170c05-ef64-40e4-a6d9-7c693033eab6"
+          "id": "d9fef119-f517-4d71-9f84-62cd3a0a8ecd"
         },
         "target": {
-          "id": "d150ccbe-0189-42cd-a8f3-c12a4eb10808"
+          "id": "76c13d81-4165-401b-b901-81e8c1d03e43"
         },
         "router": {
           "name": "orthogonal",
@@ -181,152 +143,48 @@
           },
           {
             "attrs": {
-              "root": {
-                "opacity": 1
-              },
               "label": {
                 "text": "1"
               }
             }
           }
         ],
-        "id": "a1bd1480-01ee-40de-b976-83866c06f999",
-        "z": 119,
+        "id": "6902a771-f9b4-4b39-b88c-eb2c94456562",
+        "z": 10,
         "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {}
       },
       {
-        "type": "Transition",
-        "source": {
-          "id": "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931"
+        "type": "State",
+        "position": {
+          "x": -201,
+          "y": -55
         },
-        "target": {
-          "id": "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931"
+        "size": {
+          "height": 60,
+          "width": 190.75
         },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "changeBrightness \n    [brightness > 1] / \n    brightness -= 1\n    "
-              }
-            },
-            "position": {
-              "distance": 0.6891471522623827,
-              "offset": -42,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "3"
-              }
-            }
-          }
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "4bcca7a3-47d8-4ee8-b117-7d72dea94490",
+        "embeds": [
+          "1a95add8-cee8-4d16-bd57-c5968df70c3f",
+          "2d2fb698-a057-4f1e-b438-f94dd530f220"
         ],
-        "id": "9632d481-4efb-41ac-8b06-77325af07dbc",
-        "z": 127,
-        "parent": "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931",
-        "vertices": [
-          {
-            "x": 165,
-            "y": 184
-          },
-          {
-            "x": 165,
-            "y": 237
-          },
-          {
-            "x": 0,
-            "y": 237
+        "z": 252,
+        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
+        "attrs": {
+          "name": {
+            "text": "On"
           }
-        ],
-        "attrs": {}
+        }
       },
       {
         "type": "Transition",
         "source": {
-          "id": "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": "50%",
-              "dy": "66.667%",
-              "rotate": true
-            }
-          }
-        },
-        "target": {
-          "id": "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931"
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "changeBrightness \n    [brightness <= 1] / \n    brightness = 10\n    "
-              }
-            },
-            "position": {
-              "distance": 0.7025284406599068,
-              "offset": 41,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1"
-              }
-            }
-          }
-        ],
-        "id": "cb4ada0c-d1ec-4999-a1a5-a1bb29939784",
-        "z": 128,
-        "parent": "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931",
-        "vertices": [
-          {
-            "x": -269,
-            "y": 185
-          },
-          {
-            "x": -269,
-            "y": 236
-          },
-          {
-            "x": -114,
-            "y": 236
-          }
-        ],
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "d150ccbe-0189-42cd-a8f3-c12a4eb10808",
+          "id": "76c13d81-4165-401b-b901-81e8c1d03e43",
           "anchor": {
             "name": "topLeft",
             "args": {
@@ -337,7 +195,7 @@
           }
         },
         "target": {
-          "id": "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931",
+          "id": "4bcca7a3-47d8-4ee8-b117-7d72dea94490",
           "anchor": {
             "name": "topLeft",
             "args": {
@@ -371,25 +229,22 @@
           },
           {
             "attrs": {
-              "root": {
-                "opacity": 1
-              },
               "label": {
                 "text": "1"
               }
             }
           }
         ],
-        "id": "f040effe-1c74-4e4a-b8e7-6f01bc669fc7",
-        "z": 129,
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
+        "id": "35469eec-3174-4d3f-92f8-759ae0f4936f",
         "vertices": [],
+        "z": 253,
+        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {}
       },
       {
         "type": "Transition",
         "source": {
-          "id": "b0cb9df0-e02d-4b1f-9e62-f4b58fad9931",
+          "id": "4bcca7a3-47d8-4ee8-b117-7d72dea94490",
           "anchor": {
             "name": "topLeft",
             "args": {
@@ -400,7 +255,7 @@
           }
         },
         "target": {
-          "id": "d150ccbe-0189-42cd-a8f3-c12a4eb10808"
+          "id": "76c13d81-4165-401b-b901-81e8c1d03e43"
         },
         "router": {
           "name": "orthogonal",
@@ -426,19 +281,138 @@
           },
           {
             "attrs": {
-              "root": {
-                "opacity": 1
-              },
+              "label": {
+                "text": "3"
+              }
+            }
+          }
+        ],
+        "id": "48051b92-adf8-42f5-ae1e-80a014f8caa4",
+        "vertices": [],
+        "z": 253,
+        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "4bcca7a3-47d8-4ee8-b117-7d72dea94490",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": "50%",
+              "dy": "66.667%",
+              "rotate": true
+            }
+          }
+        },
+        "target": {
+          "id": "4bcca7a3-47d8-4ee8-b117-7d72dea94490"
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "changeBrightness \n    [brightness <= 1] / \n    brightness = 10\n    "
+              }
+            },
+            "position": {
+              "distance": 0.7025284406599068,
+              "offset": 41,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "label": {
+                "text": "1"
+              }
+            }
+          }
+        ],
+        "id": "1a95add8-cee8-4d16-bd57-c5968df70c3f",
+        "vertices": [
+          {
+            "x": -312.25,
+            "y": -15
+          },
+          {
+            "x": -312.25,
+            "y": 36
+          },
+          {
+            "x": -157.25,
+            "y": 36
+          }
+        ],
+        "parent": "4bcca7a3-47d8-4ee8-b117-7d72dea94490",
+        "z": 253,
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "4bcca7a3-47d8-4ee8-b117-7d72dea94490"
+        },
+        "target": {
+          "id": "4bcca7a3-47d8-4ee8-b117-7d72dea94490"
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "changeBrightness \n    [brightness > 1] / \n    brightness -= 1\n    "
+              }
+            },
+            "position": {
+              "distance": 0.6891471522623827,
+              "offset": -42,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
               "label": {
                 "text": "2"
               }
             }
           }
         ],
-        "id": "3c11af42-f042-4ba5-a13e-4a044ed94664",
-        "z": 130,
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
-        "vertices": [],
+        "id": "2d2fb698-a057-4f1e-b438-f94dd530f220",
+        "vertices": [
+          {
+            "x": 121.75,
+            "y": -16
+          },
+          {
+            "x": 121.75,
+            "y": 37
+          },
+          {
+            "x": -43.25,
+            "y": 37
+          }
+        ],
+        "parent": "4bcca7a3-47d8-4ee8-b117-7d72dea94490",
+        "z": 254,
         "attrs": {}
       }
     ]
