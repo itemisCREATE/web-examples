@@ -38,7 +38,6 @@
         "id": "4ab004f1-3efb-4d7b-825d-daf4e21fc132",
         "linkable": false,
         "z": 2,
-        "parent": "56e24a7f-1c9a-46c7-b6c0-f8995237a93a",
         "attrs": {
           "name": {
             "text": "LightAndMotionSensingLightSwitch"
@@ -67,7 +66,6 @@
           "9f921dc3-2e44-497b-9868-930b4b2a3703"
         ],
         "z": 3,
-        "parent": "56e24a7f-1c9a-46c7-b6c0-f8995237a93a",
         "attrs": {
           "name": {
             "text": "Manual"
@@ -93,7 +91,6 @@
           "1eb182ad-5fd3-4c91-87e9-acd605eb45e3"
         ],
         "z": 4,
-        "parent": "56e24a7f-1c9a-46c7-b6c0-f8995237a93a",
         "attrs": {}
       },
       {
@@ -115,7 +112,6 @@
           "d16a4456-732b-4be2-9d24-1f90ff64db91"
         ],
         "z": 5,
-        "parent": "56e24a7f-1c9a-46c7-b6c0-f8995237a93a",
         "attrs": {
           "name": {
             "text": "Automatic"
@@ -1542,7 +1538,6 @@
         "id": "b00e137e-cae0-4856-beb4-b9507ef95d2f",
         "vertices": [],
         "z": 46,
-        "parent": "56e24a7f-1c9a-46c7-b6c0-f8995237a93a",
         "attrs": {}
       },
       {
@@ -1577,7 +1572,6 @@
         ],
         "id": "5b223a59-db5d-47b2-90db-2c348884cbca",
         "z": 47,
-        "parent": "56e24a7f-1c9a-46c7-b6c0-f8995237a93a",
         "attrs": {}
       },
       {
@@ -1636,7 +1630,6 @@
         "id": "ae313b43-bfe5-43a0-acb3-74c10eba9139",
         "vertices": [],
         "z": 48,
-        "parent": "56e24a7f-1c9a-46c7-b6c0-f8995237a93a",
         "attrs": {}
       }
     ]

@@ -15,7 +15,6 @@
         "id": "e231e707-a282-46eb-b836-0e0cdfcbdfba",
         "linkable": false,
         "z": 1,
-        "parent": "3cfbe67f-2d74-4f97-a4aa-e83d9d29840d",
         "attrs": {
           "name": {
             "text": "LightSwitch"
@@ -41,7 +40,6 @@
         "linkable": true,
         "id": "77b738eb-5aa7-43fa-aed4-106595811bf5",
         "z": 4,
-        "parent": "3cfbe67f-2d74-4f97-a4aa-e83d9d29840d",
         "attrs": {
           "name": {
             "text": "Off"
@@ -64,7 +62,6 @@
         "linkable": true,
         "id": "d1482c8e-44b1-4b61-bedb-0acf4e068502",
         "z": 229,
-        "parent": "3cfbe67f-2d74-4f97-a4aa-e83d9d29840d",
         "attrs": {
           "name": {
             "text": "On"
@@ -186,7 +183,6 @@
           "dbdde81d-599c-4776-9437-98ca9c8a70f0"
         ],
         "z": 395,
-        "parent": "3cfbe67f-2d74-4f97-a4aa-e83d9d29840d",
         "attrs": {}
       },
       {
@@ -244,7 +240,6 @@
         ],
         "id": "c3d9c4c3-7d3c-47d1-8dd8-fa6f6ff51736",
         "z": 397,
-        "parent": "3cfbe67f-2d74-4f97-a4aa-e83d9d29840d",
         "attrs": {}
       }
     ]
