@@ -38,7 +38,6 @@
         "id": "a52f2a52-d787-4e09-8363-bd1529f140e6",
         "linkable": false,
         "z": 2,
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {
           "name": {
             "text": "DimmableLightSwitch"
@@ -64,7 +63,6 @@
         "linkable": true,
         "id": "76c13d81-4165-401b-b901-81e8c1d03e43",
         "z": 3,
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {
           "name": {
             "text": "Off"
@@ -93,7 +91,6 @@
           "02fcae50-8833-4140-a048-d79a073021ee"
         ],
         "z": 5,
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {}
       },
       {
@@ -151,7 +148,6 @@
         ],
         "id": "6902a771-f9b4-4b39-b88c-eb2c94456562",
         "z": 10,
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {}
       },
       {
@@ -174,7 +170,6 @@
           "2d2fb698-a057-4f1e-b438-f94dd530f220"
         ],
         "z": 252,
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {
           "name": {
             "text": "On"
@@ -238,7 +233,6 @@
         "id": "35469eec-3174-4d3f-92f8-759ae0f4936f",
         "vertices": [],
         "z": 253,
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {}
       },
       {
@@ -290,7 +284,6 @@
         "id": "48051b92-adf8-42f5-ae1e-80a014f8caa4",
         "vertices": [],
         "z": 253,
-        "parent": "fa02497c-338c-4891-8844-5689e1ed809b",
         "attrs": {}
       },
       {
