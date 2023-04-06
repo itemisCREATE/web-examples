@@ -66,8 +66,8 @@
         "id": "6973e89e-10c9-4f2d-aa0a-d9c8c756e468",
         "z": 221,
         "embeds": [
-          "a879ac58-4780-45fa-8f3f-21ed5e07dc20",
           "b1eea11a-9c4d-444f-b462-2a9fd9ac7e63",
+          "a879ac58-4780-45fa-8f3f-21ed5e07dc20",
           "8e66003d-663a-441b-9f71-11d34ccc918e",
           "be4f2010-6839-441a-bb0c-5342c98c8f0e",
           "e940215a-31da-4e88-9ce4-989da5c91048",
@@ -139,8 +139,8 @@
           "y": -151.5
         },
         "size": {
-          "height": 71,
-          "width": 160
+          "width": 160,
+          "height": 69
         },
         "angle": 0,
         "fixedRatio": false,
@@ -222,6 +222,7 @@
         "parent": "e425ee81-c9fb-4106-b11c-3c25d8926fb6",
         "attrs": {
           "label": {
+            "fill": "#C5C8C6",
             "refX": "50%",
             "textAnchor": "middle",
             "refY": "50%",
@@ -486,11 +487,11 @@
         "type": "State",
         "position": {
           "x": 625.9998779296875,
-          "y": -142.5
+          "y": -151.5
         },
         "size": {
-          "height": 60,
-          "width": 112
+          "width": 131,
+          "height": 69
         },
         "angle": 0,
         "fixedRatio": false,
@@ -546,6 +547,7 @@
         "parent": "e940215a-31da-4e88-9ce4-989da5c91048",
         "attrs": {
           "label": {
+            "fill": "#C5C8C6",
             "refX": "50%",
             "textAnchor": "middle",
             "refY": "50%",
@@ -589,21 +591,106 @@
         "attrs": {}
       },
       {
-        "type": "State",
+        "type": "Entry",
         "position": {
-          "x": 877.9998779296875,
-          "y": -143
+          "x": 786,
+          "y": -303
         },
         "size": {
-          "height": 61,
-          "width": 122
+          "height": 15,
+          "width": 15
+        },
+        "angle": 0,
+        "fixedRatio": true,
+        "embedable": false,
+        "linkable": true,
+        "id": "5527bc8f-a86d-47d5-88b8-43c6e5fdff66",
+        "z": 282,
+        "embeds": [
+          "4b9dd45a-a50b-4390-bcb4-0251a87feef3"
+        ],
+        "attrs": {}
+      },
+      {
+        "type": "NodeLabel",
+        "label": true,
+        "size": {
+          "width": 15,
+          "height": 15
+        },
+        "position": {
+          "x": 786,
+          "y": -288
+        },
+        "id": "4b9dd45a-a50b-4390-bcb4-0251a87feef3",
+        "z": 283,
+        "parent": "5527bc8f-a86d-47d5-88b8-43c6e5fdff66",
+        "attrs": {
+          "label": {
+            "fill": "#C5C8C6",
+            "refX": "50%",
+            "textAnchor": "middle",
+            "refY": "50%",
+            "textVerticalAnchor": "middle"
+          }
+        }
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "5527bc8f-a86d-47d5-88b8-43c6e5fdff66"
+        },
+        "target": {
+          "id": "06ddf37a-e395-4efa-b667-7e4d19918832"
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {},
+            "position": {}
+          },
+          {
+            "attrs": {
+              "label": {
+                "text": "1"
+              }
+            }
+          }
+        ],
+        "id": "dd989eed-be4c-47e4-886a-f737c4fb507e",
+        "z": 284,
+        "vertices": [
+          {
+            "x": 794,
+            "y": -254
+          }
+        ],
+        "attrs": {}
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 878.9998779296875,
+          "y": -151.5
+        },
+        "size": {
+          "width": 124,
+          "height": 69
         },
         "angle": 0,
         "fixedRatio": false,
         "embedable": true,
         "linkable": true,
         "id": "180577d3-b21f-4eb4-b44b-b76710a2b829",
-        "z": 277,
+        "z": 286,
         "embeds": [
           "7b0cedc4-cd55-4ac4-a250-8b8092ec5adc"
         ],
@@ -664,7 +751,7 @@
           }
         ],
         "id": "b1eea11a-9c4d-444f-b462-2a9fd9ac7e63",
-        "z": 280,
+        "z": 287,
         "parent": "6973e89e-10c9-4f2d-aa0a-d9c8c756e468",
         "vertices": [],
         "attrs": {}
@@ -712,93 +799,9 @@
           }
         ],
         "id": "a879ac58-4780-45fa-8f3f-21ed5e07dc20",
-        "z": 281,
+        "z": 287,
         "parent": "6973e89e-10c9-4f2d-aa0a-d9c8c756e468",
         "vertices": [],
-        "attrs": {}
-      },
-      {
-        "type": "Entry",
-        "position": {
-          "x": 786,
-          "y": -303
-        },
-        "size": {
-          "height": 15,
-          "width": 15
-        },
-        "angle": 0,
-        "fixedRatio": true,
-        "embedable": false,
-        "linkable": true,
-        "id": "5527bc8f-a86d-47d5-88b8-43c6e5fdff66",
-        "z": 282,
-        "embeds": [
-          "4b9dd45a-a50b-4390-bcb4-0251a87feef3"
-        ],
-        "attrs": {}
-      },
-      {
-        "type": "NodeLabel",
-        "label": true,
-        "size": {
-          "width": 15,
-          "height": 15
-        },
-        "position": {
-          "x": 786,
-          "y": -288
-        },
-        "id": "4b9dd45a-a50b-4390-bcb4-0251a87feef3",
-        "z": 283,
-        "parent": "5527bc8f-a86d-47d5-88b8-43c6e5fdff66",
-        "attrs": {
-          "label": {
-            "refX": "50%",
-            "textAnchor": "middle",
-            "refY": "50%",
-            "textVerticalAnchor": "middle"
-          }
-        }
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "5527bc8f-a86d-47d5-88b8-43c6e5fdff66"
-        },
-        "target": {
-          "id": "06ddf37a-e395-4efa-b667-7e4d19918832"
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {},
-            "position": {}
-          },
-          {
-            "attrs": {
-              "label": {
-                "text": "1"
-              }
-            }
-          }
-        ],
-        "id": "dd989eed-be4c-47e4-886a-f737c4fb507e",
-        "z": 284,
-        "vertices": [
-          {
-            "x": 794,
-            "y": -254
-          }
-        ],
         "attrs": {}
       },
       {
@@ -840,24 +843,24 @@
           }
         ],
         "id": "7b0cedc4-cd55-4ac4-a250-8b8092ec5adc",
-        "z": 285,
+        "z": 287,
         "parent": "180577d3-b21f-4eb4-b44b-b76710a2b829",
         "vertices": [
           {
-            "x": 1021,
-            "y": -102
+            "x": 1022,
+            "y": -110.5
           },
           {
-            "x": 1021,
-            "y": -60
+            "x": 1022,
+            "y": -68.5
           },
           {
-            "x": 986,
-            "y": -47
+            "x": 987,
+            "y": -55.5
           },
           {
-            "x": 929,
-            "y": -47
+            "x": 930,
+            "y": -55.5
           }
         ],
         "attrs": {}
